@@ -50,6 +50,8 @@
      <Compile Include="Assets\Scripts\ControllerInput.cs" />
      <Compile Include="Assets\Scripts\InputReader.cs" />
      <Compile Include="Assets\Scripts\KeyboardInput.cs" />
+     <Compile Include="Assets\Scripts\PlatformController.cs" />
+     <Compile Include="Assets\Scripts\TriggerException.cs" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
