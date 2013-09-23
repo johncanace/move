@@ -56,19 +56,23 @@ public class CharacterMovement : MyDerivedMono
     {
         XPos = 100f;
 
-        if ((controls.MoveForward).IsActive)
+        //if ((controls.MoveForward).IsActive)
+		if(Input.GetKey(KeyCode.W))	
         {
             transform.Translate(transform.forward * trueSpeed);
         }
-        if ((controls.MoveBack).IsActive)
+        //if ((controls.MoveBack).IsActive)
+		if(Input.GetKey (KeyCode.S))
         {
             transform.Translate(transform.forward * -1 * trueSpeed);
         }
-        if ((controls.MoveLeft).IsActive)
+        //if ((controls.MoveLeft).IsActive)
+		if(Input.GetKey (KeyCode.A))
         {
             transform.Translate(transform.right * -1 * trueSpeed);
         }
-        if ((controls.MoveRight).IsActive)
+        //if ((controls.MoveRight).IsActive)
+		if(Input.GetKey (KeyCode.D))
         {
             transform.Translate(transform.right * trueSpeed);
         }
