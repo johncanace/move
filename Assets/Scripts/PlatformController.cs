@@ -33,7 +33,10 @@ public class PlatformController : MonoBehaviour {
 			moveVec.x += Movespeed;
 		}
 		controller.Move(moveVec * Time.deltaTime);
-		moveVec.y -= Gravity;
+		//if(Jump.IsActive)
+		//{
+			//moveVec.y -= Gravity;
+		//}
 		prevFlags = controller.Move(moveVec * Time.deltaTime);
 		
 		//if(HideFlags.Has<CollisionFlags>(CollidedSides))
